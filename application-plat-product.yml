@@ -3,3 +3,8 @@ server:
 spring:
   application:
     name: AIGOU-PLAT
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///ceshi?useSSL=false&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
