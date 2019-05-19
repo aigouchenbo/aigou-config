@@ -13,7 +13,14 @@ zuul:
     product:
       path: /product/**
       service-id: aigou-product
+    common:
+      path: /common/**
+      service-id: aigou-common
 aigou-product: 
+  ribbon:
+    ConnectTimeout: 1000
+    ReadTimeout: 5000
+aigou-common: 
   ribbon:
     ConnectTimeout: 1000
     ReadTimeout: 5000
